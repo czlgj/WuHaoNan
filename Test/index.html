@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		
+		
+		.Body{
+			justify-content: center;
+			
+		}
+		.tap{
+			display: flex;
+			align-items: center;
+			height: 30px;
+			background-color: #ffff;
+			border-top: black  3px solid;
+			
+		}
+		.stap{
+			padding-left: 30px;
+			margin: 5px;
+			
+			
+		}
+		
+		#dog{
+			justify-content: flex-end;
+			position: fixed;
+			right: 5px;
+			height: 20px;
+			width: 20px;
+		}
+		.admin{
+			height: 30px;
+			weight: 10px;
+			background-color: black;
+			border-radius: 50%;
+		}
+		.box{
+			width: 30px;
+			height: 30px;
+			background-color: black;
+			border-radius: 50%;
+		}
+		.Cc2{
+			height: 50px;
+			width: 50px;
+		}
+		.box{
+			display: flex;
+			flex-direction: row;
+			padding: 5px;
+			padding-left: 10px;
+		}
+		.Qq{
+			background-color:aqua;
+			border-left: black solid 3px;
+		}
+		h2{
+			border-left: black solid 5px;
+			color: blue;
+		}
+		ul{
+			list-style: none;
+		}
+		.Ci{
+			display: flex;
+			justify-content: center;
+			align-items: baseline;
+		}
+		.Cc3{
+			margin-right: 12%;
+		}
+	</style>
+</head>
+<body>
+	<div class="Body">
+		<div class="tap">
+			<img src="./img/e08da34488b114bd4c665ba2fa520a31.svg" alt="" id="zuo">
+			<span class="stap">首页 &nbsp;沸点123 &nbsp;课程 &nbsp;直播 &nbsp;活动 &nbsp;竞赛 &nbsp;商店 &nbsp;APP &nbsp;插件</span>
+			<img src="./img/favicon.ico" alt="" id="dog">
+		</div>
+		<div class="Ci">
+			<div class="Cc1">
+				<h1>类型父子级、逆变、协变、双向协变和不变 test</h3>
+				
+				admin<br>学生
+				
+				<img src="./img/FJ.jpg" alt="" style="width: 300px; height: 170px;">
+				<br>
+				<span class="Qq">
+					我也是最近刚接触到了这些知识，文章可能有些错误，希望大佬多多指点
+				</span>
+				
+				<div>对于学习 TypeScript 了解类型的逆变、协变、双向协变和不变是很重要的，但你只要明白类型的父子级关系，这些概念理解起来就会容易许多，因此在讲述这些之前我们必须先学会类型的父子级关系。</div>
+				<br>
+				<h2>类型的父子级</h2>
+				<br>
+				首先明确一个概念，对于 TypeScript 而言，只要类型结构上是一致的，那么就可以确定父子关系，这点与 Java 是不一样的（Java 必须通过 extends 才算继承）。
+			
+			</div>
+			
+			<div class="box">
+			<div class="Cc2">
+				<div class="admin"></div>
+				</div>
+				admin<br>学生
+				</div>
+			<div class="Cc3">
+				
+				<br><br><br><br>
+				<ul>相关文章
+					<li>掘金日薪计划</li>
+					<li>初学Vue3</li>
+					<li>初识Nuxt3</li>
+					<li>封装一个字典函数</li>
+					<li></li>
+					<li>JavaScript的宏任务与微任务</li>
+					<li>搭建一个简单的组件库</li>
+					<li>重学Css</li>
+					<li>Vue3使用TSX</li>
+					<li>Typescript使用模式</li>
+				</ul>
+				<br><br><br><br>
+				<ul>目录
+					<li>类型的父子级</li>
+					<li>
+						协变
+						<ul>
+							<li>对象中运用</li>
+							<li>函数中运用</li>
+							<li>双向协变</li>
+						</ul>
+					</li>
+					<li>不变</li>
+					<li>逆变</li>
+					 
+				</ul>
+			</div>
+		</div>
+		
+	
+		
+	</div>
+	
+	<script>
+		let Qq = new XMLHttpRequest(); 
+		Qq.open("get", "https://api-juejin.suemor.com/api/v1/post/63d519999964d0a216d7d367", false); 
+		Qq.send(null);
+		
+		if((Qq.status >=200 && Qq.status <300) || Qq.status == 304){
+			console.log(Qq.responseText) // 
+		}else{
+			console.log('请求失败')
+		}
+	</script>
+</html>
