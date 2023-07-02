@@ -1,0 +1,113 @@
+ul{
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+}
+li{
+	
+	padding-right: 10px;
+	margin-bottom: 5px;
+}
+/* bd hover -->  li */
+li:hover{
+	padding-left: 8px;
+	border-left: 3px deepskyblue solid;
+	background-color: aliceblue;
+}
+b{
+	font-weight: 500;
+}
+.mui-bar{
+	display: flex;
+	align-items: center;
+	border-top: black  3px solid;
+	padding: 3px;
+}
+.stap{
+	margin-left: 15px;
+}
+#Body{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+#zuo{
+	margin-right: 20px;
+	background-color: white;
+	
+}
+#you{
+	margin-top: 5px;
+	margin-left: 20px;
+	
+	
+}
+/* 左边标题 */
+#BT{
+	width: 779px;
+	height: 100px;
+	background-color: white;
+}
+/* 左边 标题内容 */
+h2{
+	padding-left: 10px;
+	padding-top: 20px;
+	margin: 10px auto;
+	
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+}
+/* 左边用户信息 */
+#time{
+	flex-direction: row-reverse;
+	width: 779px;
+	height: 100px;
+	background-color: white;
+}
+/* 左边用户信息-头像 */
+#TouXiang{
+	
+	border-radius: 50%;
+}
+/* 左边图片 */
+#TP{
+	margin-left: 0.625rem;
+	margin-top: 15px;
+	width: 779px;
+	height: 428px;
+	/* background-image: url(/img/TUbiao.png);	 */
+	/*background-image: url('https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d8e846843c5a46b482390f711af6127e~tplv-k3u1fbpfcp-zoom-crop-mark:3024:3024:3024:1702.awebp?');
+	*/
+}
+/* QX */
+#QX{
+	display: flex;
+	align-items: center;
+	margin: 5px auto;
+	width: 779px;
+	height: 100x;
+	margin-left: 10px;
+	background-color: white;
+	margin-top: 10px;
+	
+}
+
+
+/* 右边用户信息 */
+.usr1{
+	width: 300px;
+	height: 130px;
+	background-color: white;
+}
+/* 右边相关信息 */
+#waibao{
+	margin-top: 10px;
+	width: 300px;
+	background-color: white;
+}
+.xiangguan{
+	
+	
+	
+}
