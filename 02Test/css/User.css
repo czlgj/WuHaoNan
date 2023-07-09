@@ -1,0 +1,106 @@
+/* 媒体查询 */
+@media screen and (max-width:768px){
+			#zuo{
+				display: none;
+			}
+			#you{
+				display: block;
+			}
+		}
+		
+		@media screen and (min-width:768px) and (max-width:996px){
+			#zuo{
+				display: block;
+			}
+			#you{
+				display: none;
+			}
+		}
+		@media screen and (min-width:996px){
+			#zuo{
+				display: block;
+			}
+			#you{
+				display: block;
+			}
+		}
+/* 导航栏样式 */
+.top1{
+	display: flex;
+	background-color: white;
+	height: 44px;
+			
+	align-items: center;
+}
+.top2{
+	/* 外边距 */
+	margin-top: 5px;
+	background-color: white;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	padding-left: 20%;
+}
+span{
+	margin-left: 10px;
+	color: black;
+}
+li{
+	border: none;
+}
+.mui-table-view::before{
+	background-color: white;
+	border: none;
+	
+}
+#ZZB{
+	background-color: white;
+	width: 240px;
+	margin-left: -10px;"
+	height:30px;
+}		
+		
+/* 主体内容 */
+.Body{
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+.zuo{
+	/* height: 1000px; */
+	width: 600px;
+	background-color: aqua;
+	margin-right: 8px;
+}
+a::after{
+	background-color: white;
+}
+
+
+/* 右侧 */
+.you{
+	width: 240px;
+	height: 1000px;
+	/* background-color:white; */
+	margin-left:8px;
+}
+/* 作者榜单 */
+/* 头像 */
+#MM1{
+	border-radius: 50%;
+}
+#MM2{
+	border-radius: 50%;
+}
+#MM3{
+	border-radius: 50%;
+}
+
+/* 左侧文章主体 */
+.TJ{
+	background-color: white;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+}
